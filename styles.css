@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mulish';
+}
+
+.primary_btn{
+    background-color: #FF5400;
+    color: white;
+    align-items: center;
+}
+
+.nav_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto;
+    /* border: 2px solid black; */
+
+
+
+}
+
+.red {
+    color: #FF5400;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navs>ul li {
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.navs ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.banner_section {
+    width: 88%;
+    height: 400px;
+    margin: 0px auto;
+    background-image: url("Images/Group13.png");
+    border-radius: 16px;
+
+    /* border: 2px solid black; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-clip: ; */
+    text-align: center;
+    color: white;
+}
+
+.inside_banner_section {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    padding-top: 100px;
+}
+
+.banner_section h1,
+.banner_text,
+.input {
+    margin-bottom: 20px;
+
+}
+
+.banner_section h1 {
+    font-size: 3rem;
+}
+
+.banner_text {
+    width: 500px;
+    margin: 20px auto;
+    /* border: 2px solid black; */
+}
+
+.input {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 670px;
+    margin: 0px auto;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.inside_banner_section input,
+option,
+select,
+button {
+    width: 150px;
+    height: 45px;
+    border-radius: 7px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+.inside_banner_section button> img{
+    position: absolute;
+    /* margin-top: px; */
+    margin-left: -10px;
+    
+}
+.section1{
+    display: flex;
+    width: 88%;
+    margin: 50px auto;
+    justify-content: space-between;
+    gap: 50px;
+}
+.head{
+    font-size: 3rem;
+}
+.section_text{
+    margin-top: 10px;
+}
+.products{
+    width: 100%;
+}
+.products>ul li{
+    list-style: disc;
+    padding: 3px;
+    align-items: center;
+    text-align: justify;
+}
+.products>ul{
+    padding-left: 20px;
+}
+.products li, p, button{
+    margin-bottom: 15px;
+}
+.read{
+    margin-left: 20px;
+    font-size: 1rem;
+}
