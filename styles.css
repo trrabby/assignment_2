@@ -7,7 +7,7 @@
     font-family: 'Mulish';
 }
 
-.primary_btn{
+.primary_btn {
     background-color: #FF5400;
     color: white;
     align-items: center;
@@ -75,7 +75,7 @@
 }
 
 .banner_section h1,
-.banner_text{
+.banner_text {
     margin-bottom: 20px;
 
 }
@@ -116,153 +116,372 @@ button {
     text-align: center;
     cursor: pointer;
     position: relative;
-    
+
 }
-.inside_banner_section button> img{
+
+.inside_banner_section button>img {
     position: absolute;
     /* margin-top: px; */
     margin-left: -10px;
-    
-    
+
+
 }
-.inside_banner_section button{
+
+.inside_banner_section button {
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
-.section1{
+
+.section1 {
     display: flex;
     width: 88%;
     margin: 50px auto;
     justify-content: space-between;
     gap: 50px;
 }
-.head{
+
+.head {
     font-size: 3rem;
 }
-.section_text{
+
+.section_text {
     margin-top: 10px;
 }
-.products{
+
+.products {
     width: 100%;
     text-align: justify;
 }
-.products>ul li{
+
+.products>ul li {
     list-style: disc;
     padding: 3px;
     align-items: center;
     text-align: justify;
 }
-.products>ul{
+
+.products>ul {
     padding-left: 20px;
 }
-.products li, p, button{
+
+.products li,
+p,
+button {
     margin-bottom: 15px;
 }
-.read{
+
+.read {
     margin-left: 20px;
     font-size: 1rem;
 }
-.section2{
+
+.section2 {
     width: 88%;
     margin: 20px auto;
     text-align: center;
 }
-.heading h1{
+
+.heading h1 {
     font-size: 2.5rem;
 }
-.heading p{
+
+.heading p {
     font-size: 1rem;
     width: 500px;
     margin: 20px auto;
 }
-.heading h1,{
+
+.heading h1 {
     margin-bottom: 20px;
 }
-.first_imgs{
+
+.first_imgs {
     width: 100%;
     display: flex;
     gap: 20px;
     /* border: 2px solid black; */
-    justify-content:space-between;
+    justify-content: space-between;
     margin: 0px auto;
 
 }
+
 .one {
     width: 50%;
     height: 250px;
     /* border: 2px solid black; */
 }
 
-.one img{
+.one img {
     height: 100%;
     width: 100%;
 }
 
-.second_imgs{
+.second_imgs {
     width: 100%;
     display: flex;
     gap: 20px;
     /* border: 2px solid black; */
-    justify-content:space-between;
+    justify-content: space-between;
     margin: 20px auto;
 }
-.two{
+
+.two {
     width: 35%;
     height: 250px;
     /* border: 2px solid black; */
 }
 
-.two img{
+.two img {
     height: 100%;
     width: 100%;
 }
 
-.three{
+.three {
     width: 40%;
     height: 250px;
     /* border: 2px solid black; */
 }
 
-.three img{
+.three img {
     height: 100%;
     width: 100%;
 }
-.four{
+
+.four {
     width: 25%;
     height: 250px;
     /* border: 2px solid black; */
 }
 
-.four img{
+.four img {
     height: 100%;
     width: 100%;
 }
-.five{
+
+.five {
     width: 40%;
     height: 250px;
     /* border: 2px solid black; */
 }
 
-.five img{
+.five img {
     height: 100%;
     width: 100%;
 }
-.six{
+
+.six {
     width: 60%;
     height: 250px;
     /* border: 2px solid black; */
 }
 
-.six img{
+.six img {
     height: 100%;
     width: 100%;
 }
-.section2 img{
+
+.section2 img {
     cursor: pointer;
-    
+
 }
-.section2 img:hover{
+
+.section2 img:hover {
     box-shadow: 10px 10px 10px rgb(19, 112, 124);
     border-radius: 20px;
     transition: .5s;
+}
+
+.section3 {
+    width: 88%;
+    margin: 50px auto;
+
+}
+
+.choose_us {
+    text-align: center;
+}
+
+.middlebar_section3 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: left;
+    text-align: justify;
+}
+
+
+
+.section_head {
+    font-size: 2.5rem;
+}
+
+.section3_text {
+    width: 60%;
+    margin: 20px auto 50px;
+}
+
+.handpicked {
+    width: 60%;
+    padding: 20px;
+    height: 180px;
+    /* border: 2px solid black; */
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    cursor: pointer;
+}
+
+.handpicked:hover {
+    box-shadow: 10px 10px 10px rgb(19, 112, 124);
+    border-radius: 20px;
+    transition: .5s;
+    transform: scale(1.1);
+    /* padding: 30px; */
+}
+
+.handpicked h1,
+p {
+    margin-top: 15px;
+}
+
+.world_class_service {
+    /* border: 2px solid black; */
+    width: 60%;
+    padding: 20px;
+    height: 180px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    cursor: pointer;
+}
+
+.world_class_service:hover {
+    box-shadow: 10px 10px 10px rgb(19, 112, 124);
+    border-radius: 20px;
+    transition: .5s;
+    transform: scale(1.1);
+    /* padding: 30px; */
+}
+
+.world_class_service h1,
+p {
+    margin-top: 15px;
+}
+
+.logo_div {
+    height: 50px;
+    width: 50px;
+}
+
+.best_price {
+    width: 60%;
+    margin: 50px auto;
+    height: 180px;
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    text-align: justify;
+    cursor: pointer;
+}
+
+.best_price:hover {
+    box-shadow: 10px 10px 10px rgb(19, 112, 124);
+    border-radius: 20px;
+    transition: .5s;
+    transform: scale(1.1);
+    /* padding: 30px; */
+}
+
+
+.section4 {
+    width: 88%;
+    margin: 0px auto;
+    /* border: 2px solid black; */
+
+}
+
+.deals_discount_head h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.deals_discount_head p {
+    width: 60%;
+    margin: 10px auto;
+    margin-bottom: 20px;
+}
+
+.deal1 {
+    background-image: url("Images/Group40089\(4\).png");
+    background-size: cover;
+    height: 350px;
+    position: relative;
+}
+
+.deal_card {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(.1px);
+    width: 40%;
+    height: auto;
+    padding: 20px;
+    margin-left: 52%;
+    position: absolute;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+.deal_card:hover{
+    box-shadow: 10px 10px 10px rgb(19, 112, 124);
+    border-radius: 20px;
+    transition: .5s;
+}
+.logo_text{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+/* .pp{
+    width: 95%;
+} */
+
+.deal2{
+    background-image: url("Images/Group40089\).png");
+    background-size: cover;
+    height: 350px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.deal_card2 {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(.1px);
+    width: 40%;
+    height: auto;
+    padding: 20px;
+    margin-left: 4%;
+    position: absolute;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+.deal_card2:hover{
+    box-shadow: 10px 10px 10px rgb(19, 112, 124);
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.deal3{
+    background-image: url("Images/Group40089\(4\).png");
+    background-size: cover;
+    height: 350px;
+    position: relative;
+    margin-top: 20px;
 }

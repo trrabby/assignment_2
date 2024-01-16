@@ -72,4 +72,59 @@
         .second_imgs {
             flex-direction: column;
         }
-}
+        .section3_text {
+            width: 85%;
+            margin: 20px auto;
+        }
+        .middlebar_section3 {
+            flex-direction: column;
+        }
+        .handpicked{
+            width: 85%;
+            padding: 20px;
+            height: auto;
+        }
+        .handpicked p{
+            margin-top: 10px;
+            margin-bottom: 0px;
+            /* font-size: .9rem; */
+        }
+
+        .world_class_service{
+            width: 85%;
+            padding: 20px;
+            height: auto;
+        }
+        .world_class_service p{
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+
+        .best_price{
+            width: 85%;
+            padding: 20px;
+            height: auto;
+        }
+        .best_price p{
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+
+        .deals_discount_head p {
+            width: 80%;
+            margin: 10px auto;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        .deal_card, .deal_card2 {
+           
+            width: 75%;
+            height: auto;
+            padding: 10px;
+            margin-left: 10%;
+            margin-top: 15%;
+                    
+        }
+
+        
+    }
