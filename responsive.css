@@ -10,9 +10,12 @@
         margin: 0px auto;
         
     }
+    
     .navs>ul li {
         padding: 5px;
         font-size: 1rem;
+        display: flex;
+        flex-wrap: wrap;
     }
     .banner_section{
         background-size:auto;
