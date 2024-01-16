@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px){
     
     .logo {
-        width: 80%;}
+        width: 100%;}
         
     .nav_section{
         flex-wrap: wrap;
@@ -16,6 +16,8 @@
     }
     .banner_section{
         background-size:auto;
+        background-position: center;
+        
     }
     .banner_section h1 {
         font-size: 2rem;
@@ -128,7 +130,7 @@
             height: auto;
             padding: 10px;
             margin-left: 10%;
-            margin-top: 15%;
+            margin-top: 8%;
                     
         }
         .package {
@@ -155,7 +157,7 @@
         .section6 .form {
             width: 90%;
             border: 2px solid #FF5400;
-            margin: 0px auto;
+            margin: 50px auto;
             border-radius: 10px;
         }
 
@@ -163,9 +165,9 @@
             width: 100%;
         }
         .disciunt {
-            margin-top: 620px;
-            width: 40%; 
-            margin-left: 250px;
+            margin-top: 740px;
+            width: 50%; 
+            margin-left: 150px;
         }
 
         footer {
@@ -175,7 +177,7 @@
         }
         .footer_logo {
             width: 80%;
-            padding-left: 17%;
+            /* padding-left: 8%; */
         }
         footer>p {
             width: 80%;
