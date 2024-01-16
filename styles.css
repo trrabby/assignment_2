@@ -554,7 +554,7 @@ li {
     justify-content:space-between;
     gap: 20px;
     /* border: 2px solid black; */
-    position: relative;
+    /* position: relative; */
 }
 
 .section6 .form {
@@ -563,6 +563,7 @@ li {
     padding-left: 30px;
     border: 2px solid #FF5400;
     border-radius: 10px;
+    
 }
 
 .section6 .form:hover{
@@ -631,7 +632,7 @@ li {
     border-radius: 5px;
     transform: rotate(-30deg);
     margin-top: 250px;
-    margin-left: 82%;
+    margin-left: 70%;
     
 }
 
